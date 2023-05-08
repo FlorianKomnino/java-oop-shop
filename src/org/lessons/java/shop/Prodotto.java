@@ -49,7 +49,7 @@ public class Prodotto {
 		return getPrezzo();
 	}
 	public float getPrezzoIvato() {
-		return getPrezzo() * (1 + (getIva() / 100));
+		return getPrezzo() * (1 + (getIva() / 100f));
 	}
 	public String getNomeEsteso() {
 		return "Il nome completo del prodotto e' :" + getCodice() + " " + nome;
